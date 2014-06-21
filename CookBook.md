@@ -14,7 +14,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable.
 
-#All the above information is from readme and features files which are coming with the original data sets.
+###All the above information is from readme and features files which are coming with the original data sets.
 
 In order to get a tidy data set, I did the following things. First, I merged the training and the test sets to create one data set. Second, I extracted only the measurements on the mean and standard deviation for each measurement. Third, I adjusted names of activities and columns. At last, I generated an independent tidy data set with the average of each variable for each activity and each subject. 
 
